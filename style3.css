@@ -1,0 +1,111 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f3;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.h1, h2 {
+    color: #4CAF50;
+}
+
+.p, li {
+    color: #555;
+    line-height: 1.5;
+}
+
+.ul {
+    padding-left: 20px;
+}
+
+
+content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.content img {
+    width: 300px; 
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.day-content {
+    flex: 1; 
+}
+
+.day h2 {
+    margin-top: 0;
+}
+.review-form {
+    background-color: #eef2f3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+.review-form h2 {
+    text-align: center;
+    color: #4CAF50;
+}
+.review-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.review-form label {
+    font-weight: bold;
+    color: #333;
+}
+.review-form input, 
+.review-form textarea, 
+.review-form select, 
+.review-form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.review-form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.review-form button:hover {
+    background-color: #45a049;
+}
+#back-button {
+    background-color: #f44336; 
+    color: white; 
+    padding: 10px 20px; 
+    margin: 5px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+#back-button:hover {
+    background-color: #d32f2f; 
+}

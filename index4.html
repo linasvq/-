@@ -1,0 +1,90 @@
+<head>
+    <link rel="stylesheet" href="style4.css">
+    </head>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+<body>
+    <header>
+        <h1>Б'юті-процедури</h1>
+        
+    </header>
+    <div class="content">
+        <h2>Що таке б'юті-процедури?</h2>
+        <img src="бьюті.jpg" alt="бьюті">
+        <p>Б'юті-процедури — це косметичні заходи, спрямовані на догляд за шкірою, волоссям і тілом. Вони покликані підтримувати здоров'я, красу та омолодження.</p>
+
+        <h2>Популярні б'юті-процедури</h2>
+        
+        <h3>1. Догляд за шкірою обличчя</h3>
+        <img src="шкіра.jpg" alt="шкіра">
+        <ul>
+            <li><strong>Чистка обличчя:</strong> Видалення забруднень та чорних цяток.</li>
+            <li><strong>Пілінг:</strong> Хімічний або механічний метод для відновлення шкіри.</li>
+            <li><strong>Маски:</strong> Зволоження, очищення та живлення шкіри.</li>
+            <li><strong>Лазерна терапія:</strong> Лікування акне, видалення пігментів.</li>
+        </ul>
+        
+        <h3>2. Антивікові процедури</h3>
+        <img src="вікові процедури.jpg" alt="Антивікові процедури">
+        <ul>
+            <li><strong>Ботокс і філери:</strong> Ін'єкції для розгладження зморшок.</li>
+            <li><strong>Мезотерапія:</strong> Вітамінні коктейлі для омолодження.</li>
+            <li><strong>Лімфодренаж:</strong> Зняття набряків та покращення кровообігу.</li>
+        </ul>
+        
+        <h3>3. Догляд за волоссям</h3>
+        <img src="Уход за волосами.jpg" alt="догляд за волоссям">
+        <ul>
+            <li><strong>Маски для волосся:</strong> Відновлення та зволоження.</li>
+            <li><strong>Кератинове випрямлення:</strong> Для блиску та гладкості.</li>
+            <li><strong>Фарбування:</strong> Омбре, балаяж та інші техніки.</li>
+        </ul>
+        
+        <h3>4. Догляд за тілом</h3>
+        <img src="догляд за тілом.jpg" alt="догляд за тілом">
+        <ul>
+            <li><strong>Масажі:</strong> Релаксація та корекція фігури.</li>
+            <li><strong>Обгортання:</strong> Тонізація шкіри.</li>
+            <li><strong>Антицелюлітні процедури:</strong> Вакуумний масаж, лазер.</li>
+        </ul>
+        
+        <h3>5. Манікюр і педикюр</h3>
+        <img src="манікюр.jpg" alt="манікюр та педікюр">
+        <ul>
+            <li><strong>Гелеве покриття:</strong> Тривалий блиск та захист нігтів.</li>
+            <li><strong>Нарощування:</strong> Для подовження нігтів.</li>
+            <li><strong>Декор:</strong> Камінці, малюнки та інше.</li>
+        </ul>
+
+        <h3>6. Пілінги та депіляція</h3>
+        <img src="депіляція.jpg" alt="пілінги та депіляція">
+        <ul>
+            <li><strong>Депіляція:</strong> Воскова, лазерна, фотоепіляція.</li>
+            <li><strong>Хімічний пілінг:</strong> Очищення шкіри тіла.</li>
+        </ul>
+    </div><section class="review-form">
+        <h2>Залиште свій відгук</h2>
+        <form id="feedbackForm">
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="comment">Ваш відгук:</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+            
+            <label for="rating">Оцінка:</label>
+            <select id="rating" name="rating" required>
+                <option value="5">⭐⭐⭐⭐⭐</option>
+                <option value="4">⭐⭐⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="1">⭐</option>
+            </select>
+            
+            <button type="submit">Відправити</button>
+        </form>
+    </section>
+    <button id="back-button" onclick="goBack()">Назад</button>
+</body>
