@@ -1,43 +1,57 @@
-<heed> 
-    <link rel="stylesheet" href="style.css"> 
-</heed>
-<body>
- <header>
-     <h1>Баланс життя</h1>
- </header>
- <div class="container">
-     <div class="card">
-         <img src="cinema.jpg" alt="Фільми">
-         <h2>Фільми</h2>
-         <p>"Відкрийте для себе новітні кінопрем'єри та захоплюючі рецензії на фільми різних жанрів. 
-            Незалежно від того, чи ви шукаєте драму, комедію, пригоди чи наукову фантастику, 
-            у нас ви знайдете найкращі рекомендації та огляди,
-             що допоможуть вибрати фільм для вечора." </p>
-         <button onclick="goToPage('index2.html')">Explore</button>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Баланс життя</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HMVJJ9Z3KH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-     </div>
-     <div class="card">
-         <img src="sport.jpg" alt="Спорт"> 
-         <h2>Спорт</h2>
-         <p>"Знайдіть баланс між активним відпочинком та підтримкою фізичної форми.
-             Отримуйте корисні поради щодо тренувань, вправ та здорового способу життя.
-              Спорт для себе — це можливість покращити самопочуття,
-             зняти стрес і відчути радість від руху, не залежно від вашого рівня підготовки."</p>
-         <button onclick="goToPage('index3.html')">Explore</button>
-     </div>
-     <div class="card">
-         <img src="self-care.jpg" alt="Догляд за собою">
-         <h2>Догляд за собою</h2>
-         <p>Догляд за шкірою та обличчям — це основа здорового вигляду і впевненості у собі.
-             Дізнайтеся про ефективні засоби та процедури для очищення, зволоження і живлення шкіри. 
-            Відкрийте для себе секрети правильної турботи за шкірою, щоб підтримувати її молодість, 
-            свіжість і природний блиск кожного дня." </p>    
-        <button onclick="goToPage('index4.html')">Explore</button>
-     </div>
- </div>
- <script>
-     function goToPage(Page) {
-         window.location.href = Page;
-     }
- </script>
-</body>
+  gtag('config', 'G-HMVJJ9Z3KH');
+</script>
+</head>
+<body>
+    <header>
+        <h1>Баланс життя</h1>
+    </header>
+
+    <div class="slides-container">
+        <div class="slide slide-right">
+            <img src="cinema.jpg" alt="Фільми">
+            <div class="slide-content">
+                <h2>Фільми</h2>
+                <p>"Відкрийте для себе новітні кінопрем'єри та захоплюючі рецензії на фільми різних жанрів. 
+                    Незалежно від того, чи ви шукаєте драму, комедію, пригоди чи наукову фантастику, 
+                    у нас ви знайдете найкращі рекомендації та огляди, що допоможуть вибрати фільм для вечора."</p>
+                <button onclick="goToPage('index2.html')">Explore</button>
+            </div>
+        </div>
+        <div class="slide slide-bottom">
+            <img src="sport.jpg" alt="Спорт">
+            <div class="slide-content">
+                <h2>Спорт</h2>
+                <p>"Знайдіть баланс між активним відпочинком та підтримкою фізичної форми. 
+                    Отримуйте корисні поради щодо тренувань, вправ та здорового способу життя. 
+                    Спорт для себе — це можливість покращити самопочуття, зняти стрес і відчути радість від руху, 
+                    не залежно від вашого рівня підготовки."</p>
+                <button onclick="goToPage('index3.html')">Explore</button>
+            </div>
+        </div>
+        <div class="slide slide-left">
+            <img src="self-care.jpg" alt="Догляд за собою">
+            <div class="slide-content">
+                <h2>Догляд за собою</h2>
+                <p>"Догляд за шкірою та обличчям — це основа здорового вигляду і впевненості у собі. 
+                    Дізнайтеся про ефективні засоби та процедури для очищення, зволоження і живлення шкіри. 
+                    Відкрийте для себе секрети правильної турботи за шкірою, щоб підтримувати її молодість, 
+                    свіжість і природний блиск кожного дня."</p>
+                <button onclick="goToPage('index4.html')">Explore</button>
+            </div>
+        </div>
+
+        
